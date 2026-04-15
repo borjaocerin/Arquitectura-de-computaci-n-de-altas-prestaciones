@@ -1,0 +1,11 @@
+Como Compilar el programa Secuencial:
+
+gcc secuencial.c -o secuencial
+
+como lanzo el programa esstando en la misma carpeta que el programa:
+
+
+./secuencial (Filas matriz A) (Columas matriz B y Filas A) (Columnas matriz B)
+
+Ejemplo:
+./secuencial 1000 20 500
