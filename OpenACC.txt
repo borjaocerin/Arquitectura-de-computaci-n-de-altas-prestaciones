@@ -1,0 +1,12 @@
+Como Compilar el programa en OpoenACC:
+
+nvc -acc -Minfo=accel practicaacc.c -o practicaacc
+
+
+como lanzo el programa estando en la misma carpeta que el programa:
+
+
+./practicaacc (Filas matriz A) (Columas matriz B y Filas A) (Columnas matriz B)
+
+Ejemplo:
+./practicaacc 1024 1024 1024
