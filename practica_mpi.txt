@@ -1,0 +1,12 @@
+Como Compilar el programa de MPI:
+
+mpicc practicampi.c -o practicampi
+
+como lanzo el programa esstando en la misma carpeta que el programa:
+
+
+./practicampi 
+mpirun -np (nun procesos) ./practicampi (Filas matriz A) (Columas matriz B y Filas A) (Columnas matriz B)
+
+Ejemplo:
+    mpirun -np 4 ./practicampi 1000 500 800

@@ -1,0 +1,11 @@
+Como Compilar el programa paralelo omp:
+
+gcc -fopenmp practicaomp.c -o practicaomp
+
+como lanzo el programa esstando en la misma carpeta que el programa:
+
+
+./practicaomp (Filas A) (Columnas A / Filas B) (Columnas B)
+
+Ejemplo:
+./practicaomp 1000 20 500
